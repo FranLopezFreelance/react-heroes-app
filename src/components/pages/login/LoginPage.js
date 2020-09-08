@@ -7,7 +7,7 @@ export const LoginPage = ({history}) => {
   }
 
   return (
-    <div className="container mt-5 text-center">
+    <div className="container mt-5 text-center animate__animated animate__fadeIn">
       <h1>Login Page</h1>
       <hr />
       <button className="btn btn-outline-primary"

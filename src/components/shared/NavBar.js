@@ -3,10 +3,10 @@ import { Link, NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark animate__animated animate__fadeIn">
           <Link 
             className="navbar-brand" 
-            to="/">Asociaciones</Link>
+            to="/">Heroes React App</Link>
 
             <div className="navbar-collapse">
               <div className="navbar-nav">

@@ -10,12 +10,12 @@ export const DashboardRoutes = () => {
   return (
     <div>
       <Navbar />
-      <div>
+      <div className="container-fluid mt-4">
         <Switch>
           <Route path='/' exact component={HomePage} />
           <Route path='/marvel' exact component={MarvelPage} />
           <Route path='/dc' exact component={DcPage} />
-          <Route path='/heoroe/:heroId' exact component={HeroPage} />
+          <Route path='/hero/:heroId' exact component={HeroPage} />
           <Redirect to='/' />
         </Switch>
       </div>
